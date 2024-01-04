@@ -1,0 +1,88 @@
+.logobox{
+    flex-direction: row;
+    display: flex;
+    
+}
+.logoimg{
+    width: 6rem;
+}
+.logotext
+{
+    font-family: 'Long Cang', cursive;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('backgroundpizza.jpeg');
+    background-size: cover;
+    filter:  blur(3px);
+    z-index: -1;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.navbarelements{
+    display: flex;
+    justify-content: center;
+}
+.navbarelements ul{
+    list-style: none;
+}
+.navbarelements ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+.navbarelements ul li a{
+    color: black;
+    
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.banner{
+    margin-top: 1rem;
+    height: 20rem;
+
+}
+.contenutobanner{
+    display: flex;
+    flex-direction: column;
+    background-image: url('pistacchio.jpg');
+    border-radius: 1rem 1rem 1rem 1rem;
+    
+    
+}
+.contenutobanner p{
+    font-size: 5rem;
+    margin: 0;
+    color: whitesmoke;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    
+}
+.contenutobanner a{
+    color: white;
+    text-decoration: none;
+}
+.contenutobanner li{
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    
+}
